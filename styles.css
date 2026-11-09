@@ -1,18 +1,91 @@
-body {
-    font-family: Arial, sans-serif;
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
-h1 {
-    color: #7a2cbf;
+body{
+font-family:Arial,sans-serif;
+background:#f7f7f7;
 }
 
-a {
-    background-color: #25D366;
-    color: white;
-    text-decoration: none;
-    padding: 12px 18px;
-    border-radius: 4px;
+header{
+background:#002f6c;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+nav{
+background:#ffd600;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+margin:10px;
+color:#002f6c;
+font-weight:bold;
+text-decoration:none;
+}
+
+.hero img{
+width:100%;
+display:block;
+}
+
+.welcome{
+padding:40px;
+text-align:center;
+}
+
+.btn{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:15px 25px;
+border-radius:6px;
+text-decoration:none;
+margin-top:15px;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+width:300px;
+border-radius:8px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.products{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+padding:30px;
+justify-content:center;
+}
+
+.product{
+background:white;
+width:250px;
+padding:25px;
+text-align:center;
+border-radius:8px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer{
+background:#002f6c;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:40px;
 }
